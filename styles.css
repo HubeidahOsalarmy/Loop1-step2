@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+img {
+    margin: 0 20px;
+    width: 1300px;
+    height: 600px;
+}
+.img {
+    width: 35px;
+    height: 25px;
+}
+.last {
+    background-color: #0894eb;
+}
+.last:hover {
+    cursor: pointer;
+    background-color: #23a0ee;
+}
+.last:active {
+    transform: translate(0,1px);
+}
+#check {
+    color:rgb(149, 134, 134)
+    width: 80px;
+    height: 40px;
+    margin: 0;
+}
+.mas::after {
+    content:url(img/check.svg);
+    margin-left: 140px;
+    color: grey;
+    width: 5px;
+    height: 2px;
+}
+.next {
+    color: white;
+    font-weight: bolder;
+    font-size: 10px;
+}
+.last {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px;
+}
+.visa {
+    display: flex;
+    align-items: normal;
+    margin: 0;
+    padding: 5px;
+    height: 35px;    
+
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0.6px solid rgb(249, 247, 247);
+}
+.visa:hover {
+    background-color: rgb(234, 226, 226, 0.8);
+    cursor: pointer;
+}
+.mastercard:hover {
+    background-color: rgb(234, 226, 226, 0.8);
+    cursor: pointer;
+}
+.maestro:hover {
+    background-color: rgb(234, 226, 226, 0.8);
+    cursor: pointer;
+}
+.mastercard {
+    display: flex;
+    align-items: normal;
+    margin: 0;
+    padding: 5px;
+    height: 35px;    
+
+}
+.maestro {
+    display: flex;
+    align-items: normal;
+    height: 35px;    
+    margin: 0;
+    padding: 5px;
+}
+.vis {
+    margin-top: 6px;
+    font-size: 11px;
+    color: rgb(64, 62, 62, 0.65);
+    font-weight: bold;
+    height: 25px;
+    
+}
+.mas {
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+.maes {
+    margin-top: 5px;
+    font-size: 11px;
+    color: rgb(64, 62, 62,0.65);
+    font-weight: bold;
+
+
+}
+#arrow {
+    color: white;
+    width: 12px;
+    height: 20px;
+    margin: 20px 3px;
+    font-weight: bolder;
+}
+.dpay {
+    display: flex;
+    gap: 0;
+    margin-left: 50px;
+
+    justify-content: center;
+    align-items: center;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(237, 222, 222);
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+}
+#grey {
+    background-color: rgb(149, 134, 134);
+}
+.white {
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    background-color: white;
+    width: 25%;
+    
+}
+.dpay {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+.pay {
+    color: rgb(52, 48, 48);
+    margin-left: 20%;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: 10px;
+    
+}
